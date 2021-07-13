@@ -201,11 +201,48 @@ margin-left: 250px;
 }
 
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:400px) {
+
     .players,.banner
     {
+        width:80%;
+        margin:0 auto;
+        
         grid-template-columns: repeat(1,1fr);
+        margin:5px;
+        padding:2px;
     }
+
+    .player, .banner,.bestplayer
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner
+    {width:fit-content;height:fit-content;}
+
+    
+}
+/* 
+@media only screen and (max-width:600px) {
+
+    .players,.banner
+    {
+        width:80%;
+        margin:0 auto;
+        
+        grid-template-columns: repeat(1,1fr);
+        margin:5px;
+        padding:2px;
+    }
+
+    .player, .banner,.bestplayer
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+   
     .banner
     {
         flex-direction: column;
@@ -220,10 +257,28 @@ margin-left: 250px;
     .mostgoals
     {
         grid-template-columns: repeat(1,1fr);
+        margin:5px;
     }
-    .footer
-    {
-        justify-content: center;
-    }
-    
+
+
+.half
+{width:100%;}
+footer img
+{
+    width:70%;
+    height:50%;
 }
+
+.socialmediaicon
+{
+    width: 20px;
+height: 22px;
+margin-left: 1px;
+
+}
+.footerinfo
+{
+    margin-left: 10px;
+}
+    
+} */
