@@ -4,6 +4,7 @@ h1{
 }
 body {
     margin:0px;
+    font-family: 'Poppins', sans-serif;
 }
 /* bannersection */
 .container {
@@ -70,17 +71,16 @@ body {
 /* video */
 .videosection {
     margin-left: 180px;
-    margin-right: 200px;
+    margin-right: 180px;
     margin-top: 60px;
 }
 .videosectiondiv {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-row-gap: 27px;
-    grid-column-gap: 30px;
+    grid-template-columns: repeat(1,1fr);
+    
 }
 .videos {
-    width:920px;
+    width:1200px;
     height:500px;
 }
 .videoheader {
@@ -127,6 +127,10 @@ body {
 .mostgoals h3 {
     text-align: center;
 }
+.goal-playerinfo h2,p
+{
+    text-align: center;
+}
 /* footer */
 footer {
     margin: 60px 480px;
@@ -140,13 +144,13 @@ footer img {
 .socialmediaicon {
     width: 160px;
     height: 32px;
-    margin-left: 250px;
+    margin-left: 230px;
 }
 .fab {
     margin:10px;
 }
 .footerinfo {
-    margin-left: 230px;
+    margin-left: 200px;
     font-size: 18px;
 }
 /* media screen for mobiles */
@@ -273,10 +277,10 @@ footer img {
     .socialmediaicon {
         width: 160px;
         height: 32px;
-        margin-left: 40px;
+        margin-left: 90px;
    }
     .footerinfo {
-        margin-left: 40px;
+        margin-left: 70px;
         font-size: 18px;
    }
 }
