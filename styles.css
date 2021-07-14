@@ -2,338 +2,281 @@ h1{
     font-size: 45px;
     color:white;
 }
-
-body
-{
+body {
     margin:0px;
-    background-color: white;
 }
-
-/* banner */
-.banner
-{
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
-    /* width: 100%;
-    height: 700px; */
+/* bannersection */
+.container {
     background: #2D25A0;
-   
 }
-.bannerdetails
-{
-   
-    margin-left: 156px;
-    margin-top: 207px;
-    margin-bottom: 240px;
+.bannerdetails {
+    margin: 200px 150px;
+    width: 485px;
+    height: 230px;
 }
-.bannerimage
-{
-     margin-top: 153px;
-    margin-right: 152px;
-    
+.banners {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
 }
-.bannerimage img
-{
+.bannerimage {
+    margin-top: 153px;
+    margin-right: 142px;
+    margin-bottom: 70px;
+}
+.bannerimage img {
     width: 556.01px;
     height: 438px;
-  
-  
-   
-
 }
-.banner:hover .bannerimage{
-    transform: scale(1.1);
-    transition: transform 2s ease-in-out;
+.buttontype {
+    color:white;
+    text-decoration: none;
+    padding:20px 20px;
+    font-weight: 900;
+    font-size: 15px;
+    width: 168px;
+    height: 44px;
+    left: 156px;
+    top: 464px;
+    background: #E02C6D;
 }
-
-.buttontype
-{
-color:white;
-text-decoration: none;
-padding:20px 20px;
-
-font-weight: 900;
-font-size: 15px;
-width: 168px;
-height: 44px;
-left: 156px;
-top: 464px;
-
-
-background: #E02C6D;
-}
-
-.buttonbelow
-{ 
+.buttonbelow {
     margin-top: 60px;
-    
 }
-
-.fa-arrow-right
-{
-    margin-left:10px;
-    margin-left: 5px;
-}
-
-
-.half
-{
-    width:50%;
-    
-}
-
-
-
 /* playerinfo */
-.sectionplayers
-{
-  margin-left: 180px;
-  margin-right: 200px;
-  margin-top: 60px;
+.sectionplayers {
+    margin-left: 180px;
+    margin-right: 200px;
+    margin-top: 60px;
 }
-.player
-{
+.player {
     width: 330px;
-   
     padding:20px;
-   
-
     box-shadow: 0px 0px 40px 0px #00000026;
-
-    
 }
-.player img
-{
-   
+.player img {
     width: 300px;
-height: 256px;
-   
+    height: 256px;
 }
-.players
-{
+.players {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-row-gap: 27px;
-    
     grid-column-gap: 30px;
 }
-
- /* video */
- 
-
-/* .videosection
-{
-    padding-top: 30px;
-} */
-
-.videosection
-{
-  margin-left: 180px;
-  margin-right: 200px;
-  margin-top: 60px;
+.playersinfo {
+    width: 300px;
+    height: 154px;
 }
-.videosectiondiv
-{
+/* video */
+.videosection {
+    margin-left: 180px;
+    margin-right: 200px;
+    margin-top: 60px;
+}
+.videosectiondiv {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-row-gap: 27px;
-    
     grid-column-gap: 30px;
 }
-
-/* .video
-{
-    margin-left: 230px;
-    padding:40px;
-} */
-.videos
-{
+.videos {
     width:920px;
-     height:500px;
+    height:500px;
 }
-
-.videoheader
-{
-   text-align: center;
-}
-/* best player section */
-.goal-sectionplayers
-{
-  margin-left: 180px;
-  margin-right: 200px;
-  margin-top: 60px;
-}
-.goal-player
-{
-    width: 330px;
-   
-    padding:20px;
-   
-
-  
-
-    
-}
-.goalheader
-{
+.videoheader {
     text-align: center;
 }
-.goal-player img
-{
-   
-    width: 300px;
-height: 256px;
-border-radius: 100px;
-   
+/* bestplayersection */
+.goal-sectionplayers {
+    margin-left: 180px;
+    margin-right: 200px;
+    margin-top: 60px;
 }
-.goal-players
-{
+.goal-player {
+    width: 330px;
+    padding:20px;
+}
+.goalheader {
+    text-align: center;
+}
+.goal-player img {
+    width: 300px;
+    height: 256px;
+    border-radius: 100px;
+}
+.goal-players {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-row-gap: 27px;
-    
     grid-column-gap: 30px;
 }
-
-
-.bestplayer img
-{
-   
+.bestplayer img {
     width: 300px;
     height: 256px;
     margin-left:50px;
-   
-   
 }
-
-.mostgoals
-{
+.mostgoals {
     width:80%;
     margin:0 auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-  
 }
-.goalsection h2
-{
+.goalsection h2 {
     text-align: center;
 }
-.mostgoals h3
-{
+.mostgoals h3 {
     text-align: center;
 }
-
-
-
-
-
-
 /* footer */
-footer
-{
+footer {
     margin: 60px 480px;
     width: 483.87px;
-height: 213px;
-
+    height: 227px;
 }
-footer img
-{
+footer img {
     width:90%;
     height:50%;
 }
-
-.socialmediaicon
-{
+.socialmediaicon {
     width: 160px;
-height: 32px;
-margin-left: 250px;
-
+    height: 32px;
+    margin-left: 250px;
 }
-.footerinfo
-{
+.fab {
+    margin:10px;
+}
+.footerinfo {
     margin-left: 230px;
+    font-size: 18px;
 }
-
-
+/* media screen for mobiles */
 @media only screen and (max-width: 668px) {
-   
-   
-
-    .players,.goal-players,.videosectiondiv
-    {
-       
-        
+    .body {
+       margin:0px;
+   }
+   /* banner */
+    .container {
+        width:100%;
+        background: #2D25A0;
+   }
+    .bannersection {
+        width:100%;
+        margin:0px;
+   }
+    .banners {
+        width:100%;
         grid-template-columns: repeat(1,1fr);
-       
-    }
-    .player, .videosectiondiv,.goal-sectionplayers
-    {
-        flex-direction: column;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+   }
+    .bannerdetails {
+        width:100%;
+        height: 138px;
+        margin-left: 16px;
+        margin-top: 112px;
+   }
+    .bannerimage img {
+        width: 229.59px;
+        height: 253.25px;
+   }
+    .player,.banners {
         align-items: center;
-    }
-    .videosectiondiv
+        flex-direction: column;
+   }
+   /* playerinfo */
+    .sectionplayers {
+        margin-left: 0px;
+   }
+    .player {
+        width: 330px;
+        height: 474px;
+        box-shadow: 0px 0px 40px 0px #00000026;
+   }
+    .player img {
+        width: 300px;
+        height: 256px;
+   }
+    .players {
+        grid-template-columns: repeat(1,1fr);
+        padding: 15px;
+   }
+    .playersinfo {
+        width: 300px;
+        height: 154px;
+   }
+   /* video */
+    .videosection {
+        margin-left: 10px;
+        margin-right: 0px;
+        margin-top: 0px;
+        width: 500px;
+        height:500px 
+   }
+    .videosectiondiv {
+        grid-template-columns: repeat(1,1fr);
+   }
+    .videoheader {
+        text-align: start;
+   }
+   
+    .videos {
+        width:450px;
+        height:300px;
+   }
 
-    {
-        width:80%;
-    }
-    .videosection
-    {
-        margin:50px;
-    }
-
-
-
-    
-}
-/* 
-@media only screen and (max-width:600px) {
-    .players,.banner
-    {
+   /* top players */
+    .goal-sectionplayers {
+        margin-left: 10px;
+        margin-right: 10px;
+   }
+    .goal-player {
+        width: 330px;
+        padding:20px;
+   }
+    .goalheader {
+        text-align: start;
+   }
+    .goal-player img {
+        width: 300px;
+        height: 256px;
+        border-radius: 100px;
+   }
+    .goal-players {
+        grid-template-columns: repeat(1,1fr);
+   }
+    .bestplayer img {
+        width: 300px;
+        height: 256px;
+   }
+    .mostgoals {
         width:80%;
         margin:0 auto;
-        
+        display: grid;
         grid-template-columns: repeat(1,1fr);
-        margin:5px;
-        padding:2px;
-    }
-    .player, .banner,.bestplayer
-    {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-   
-    .banner
-    {
-        flex-direction: column;
-        height:fit-content;
-        width: 100%;
-    }
-    .bannerdetails
-    {
-        width:fit-content;
-    }
-    .mostgoals
-    {
-        grid-template-columns: repeat(1,1fr);
-        margin:5px;
-    }
-.half
-{width:100%;}
-footer img
-{
-    width:70%;
-    height:50%;
+   }
+    .goalsection h2 {
+        text-align: center;
+   }
+    .mostgoals h3 {
+        text-align: center;
+   }
+   /* footer */
+    footer {
+        margin: 10px 10px;
+        width: 350.87px;
+        height: 227px;
+   }
+    footer img {
+        width:90%;
+        height:50%;
+   }
+    .socialmediaicon {
+        width: 160px;
+        height: 32px;
+        margin-left: 40px;
+   }
+    .footerinfo {
+        margin-left: 40px;
+        font-size: 18px;
+   }
 }
-.socialmediaicon
-{
-    width: 20px;
-height: 22px;
-margin-left: 1px;
-}
-.footerinfo
-{
-    margin-left: 10px;
-}
-    
-} */
